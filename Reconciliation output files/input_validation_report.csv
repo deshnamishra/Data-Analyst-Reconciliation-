@@ -1,0 +1,9 @@
+file,issue_type,description,field,sample
+internal_may,READ_OK,File read successfully,,
+internal_may,VALIDATION_OK,No basic structural/date/amount/identifier issues detected,,
+bank_may,READ_OK,File read successfully,,
+bank_may,VALIDATION_OK,No basic structural/date/amount/identifier issues detected,,
+internal_jun,READ_OK,File read successfully,,
+internal_jun,VALIDATION_OK,No basic structural/date/amount/identifier issues detected,,
+bank_jun,READ_OK,File read successfully,,
+bank_jun,VALIDATION_OK,No basic structural/date/amount/identifier issues detected,,

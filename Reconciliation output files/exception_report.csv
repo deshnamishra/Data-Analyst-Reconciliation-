@@ -1,0 +1,91 @@
+reporting_month,source_month,exception_category,match_group_id,related_transaction_reference,related_bank_reference,amount,variance,ageing_days,classification,recommended_action
+MAY,MAY,Internal self-netting pair,MAY-0001,PRMAY25145751|PRMAY25145751,,0.0,0.0,27,Closed internal netting,Document as internally netted; do not expect a bank credit for the zero-net pair.
+MAY,MAY,Internal self-netting pair,MAY-0002,PRMAY37659807|PRMAY37659807,,0.0,0.0,26,Closed internal netting,Document as internally netted; do not expect a bank credit for the zero-net pair.
+MAY,MAY,Internal self-netting pair,MAY-0003,PRMAY39888974|PRMAY39888974,,0.0,0.0,28,Closed internal netting,Document as internally netted; do not expect a bank credit for the zero-net pair.
+MAY,MAY,Internal self-netting pair,MAY-0004,PRMAY60905625|PRMAY60905625,,0.0,0.0,21,Closed internal netting,Document as internally netted; do not expect a bank credit for the zero-net pair.
+JUNE,JUN,Internal self-netting pair,JUN-0001,PRJUN22225702|PRJUN22225702,,0.0,0.0,23,Closed internal netting,Document as internally netted; do not expect a bank credit for the zero-net pair.
+JUNE,JUN,Internal self-netting pair,JUN-0002,PRJUN39765498|PRJUN39765498,,0.0,0.0,16,Closed internal netting,Document as internally netted; do not expect a bank credit for the zero-net pair.
+JUNE,JUN,Internal self-netting pair,JUN-0003,PRJUN55424358|PRJUN55424358,,0.0,0.0,10,Closed internal netting,Document as internally netted; do not expect a bank credit for the zero-net pair.
+MAY,MAY,Short settlement,MAY-0005,PRMAY45496951|PRMAY38876195|PRMAY11097552|PRMAY97813295|PRMAY62780072|PRMAY47763008|PRMAY59115280,UTR6131005449,65577.19,-330.26,19,Imperfect match,Investigate settlement shortfall / fee treatment and confirm expected payout amount.
+MAY,MAY,Short settlement,MAY-0006,PRMAY93650068|PRMAY36717096|PRMAY55511258|PRMAY16080513|PRMAY70445541|PRMAY22976369,UTR2962750929,60887.02,-211.67,11,Imperfect match,Investigate settlement shortfall / fee treatment and confirm expected payout amount.
+MAY,MAY,Reference/amount mismatch,MAY-0023,PRMAY15937353,UTR2242377075,29142.95,-238.92,15,Imperfect match,Investigate settlement shortfall / fee treatment and confirm expected payout amount.
+MAY,MAY,Reference/amount mismatch,MAY-0100,PRMAY50332555,UTR7682327733,8352.67,-381.98,19,Imperfect match,Investigate settlement shortfall / fee treatment and confirm expected payout amount.
+MAY,MAY,Reference/amount mismatch,MAY-0197,PRMAY87324220,UTR6244338653,36761.11,-320.39,17,Imperfect match,Investigate settlement shortfall / fee treatment and confirm expected payout amount.
+JUNE,JUN,Short settlement,JUN-0004,PRJUN21425533|PRJUN96695458|PRJUN39633659|PRJUN83665549|PRJUN19817298|PRJUN56150987|PRJUN34341456,UTR2076695131,62420.72,-452.26,8,Imperfect match,Investigate settlement shortfall / fee treatment and confirm expected payout amount.
+JUNE,JUN,Short settlement,JUN-0005,PRJUN58921480|PRJUN19369589|PRJUN41478466|PRJUN51027069|PRJUN39732676|PRJUN57934299|PRJUN70484679|PRJUN32634412,UTR2543980627,95250.77,-274.51,21,Imperfect match,Investigate settlement shortfall / fee treatment and confirm expected payout amount.
+JUNE,JUN,Reference/amount mismatch,JUN-0148,PRJUN68917831,UTR5449848690,16093.9,-279.91,26,Imperfect match,Investigate settlement shortfall / fee treatment and confirm expected payout amount.
+JUNE,JUN,Reference/amount mismatch,JUN-0205,PRJUN98070348,UTR8044997538,20755.81,-387.24,10,Imperfect match,Investigate settlement shortfall / fee treatment and confirm expected payout amount.
+MAY,MAY,Orphan credit,MAY-ORPH-0012,,UTR4947728706,92851.94,92851.94,8,No supporting internal reference,Investigate bank credit against source/payment operations; no internal transaction link was found.
+MAY,MAY,Orphan credit,MAY-ORPH-0028,,UTR9936181631,23293.95,23293.95,8,No supporting internal reference,Investigate bank credit against source/payment operations; no internal transaction link was found.
+MAY,MAY,Duplicate credit,MAY-DUP-0037,PRMAY87619624,UTR3027530378,4541.21,0.0,25,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+MAY,MAY,Orphan credit,MAY-ORPH-0044,,UTR8663837890,66844.58,66844.58,26,No supporting internal reference,Investigate bank credit against source/payment operations; no internal transaction link was found.
+MAY,MAY,Orphan credit,MAY-ORPH-0047,,UTR2164344392,20281.77,20281.77,19,No supporting internal reference,Investigate bank credit against source/payment operations; no internal transaction link was found.
+MAY,MAY,Duplicate credit,MAY-DUP-0058,PRMAY20770971,UTR7602474923,12850.78,0.0,10,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+MAY,MAY,Duplicate credit,MAY-DUP-0118,PRMAY78501420,UTR9837912162,76873.57,0.0,13,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+MAY,MAY,Orphan credit,MAY-ORPH-0137,,UTR3044426338,9109.17,9109.17,25,No supporting internal reference,Investigate bank credit against source/payment operations; no internal transaction link was found.
+MAY,MAY,Duplicate credit,MAY-DUP-0185,PRMAY48532662,UTR6916301780,17303.23,0.0,14,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+MAY,MAY,Duplicate credit,MAY-DUP-0186,PRMAY32083803,UTR3099500153,81212.55,0.0,17,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+MAY,MAY,Duplicate credit,MAY-DUP-0206,PRMAY72059365,UTR4506639908,68780.79,0.0,18,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+JUNE,JUN,Orphan credit,JUN-ORPH-0044,,UTR6692705133,36200.8,36200.8,19,No supporting internal reference,Investigate bank credit against source/payment operations; no internal transaction link was found.
+JUNE,JUN,Orphan credit,JUN-ORPH-0056,,UTR2571632270,25776.43,25776.43,18,No supporting internal reference,Investigate bank credit against source/payment operations; no internal transaction link was found.
+JUNE,JUN,Orphan credit,JUN-ORPH-0090,,UTR1036157653,66408.67,66408.67,22,No supporting internal reference,Investigate bank credit against source/payment operations; no internal transaction link was found.
+JUNE,JUN,Duplicate credit,JUN-DUP-0106,PRJUN28531242,UTR1430693397,71105.39,0.0,23,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+JUNE,JUN,Duplicate credit,JUN-DUP-0116,PRJUN67108220,UTR7050091525,24365.58,0.0,22,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+JUNE,JUN,Orphan credit,JUN-ORPH-0122,,UTR7651029165,81909.53,81909.53,6,No supporting internal reference,Investigate bank credit against source/payment operations; no internal transaction link was found.
+JUNE,JUN,Duplicate credit,JUN-DUP-0161,PRJUN65462544,UTR8325043570,74513.95,0.0,9,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+JUNE,JUN,Duplicate credit,JUN-DUP-0211,PRJUN58623028,UTR4242579642,14915.27,0.0,23,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+JUNE,JUN,Duplicate credit,JUN-DUP-0243,PRJUN10954835,UTR3811254192,49760.72,0.0,8,Repeated bank credit,Reverse/return the redundant bank credit after confirming the valid matched line.
+MAY,MAY,Unsettled transaction,BL-0001,PRMAY30456313,,31504.74,-31504.74,3,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0002,PRMAY84797762,,37052.7,-37052.7,3,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0003,PRMAY24363501,,49935.52,-49935.52,28,Genuine Exception; still open at June month-end,Escalate to payments/settlement operations; item remained open beyond the normal lag window.
+MAY,MAY,Unsettled transaction,BL-0004,PRMAY45106207,,48839.37,-48839.37,2,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0005,PRMAY53166435,,36317.7,-36317.7,2,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0006,PRMAY42981324,,52423.38,-52423.38,1,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0007,PRMAY54327148,,87630.92,-87630.92,4,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0008,PRMAY12058055,,89045.89,-89045.89,3,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0009,PRMAY34679818,,23081.74,-23081.74,1,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0010,PRMAY12176998,,52676.27,-52676.27,2,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0011,PRMAY18113477,,60674.78,-60674.78,20,Genuine Exception; still open at June month-end,Escalate to payments/settlement operations; item remained open beyond the normal lag window.
+MAY,MAY,Unsettled transaction,BL-0012,PRMAY81891784,,5133.1,-5133.1,3,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0013,PRMAY90922827,,83025.54,-83025.54,4,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0014,PRMAY30270856,,20973.69,-20973.69,29,Genuine Exception; still open at June month-end,Escalate to payments/settlement operations; item remained open beyond the normal lag window.
+MAY,MAY,Unsettled transaction,BL-0015,PRMAY23234972,,72414.34,-72414.34,1,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0016,PRMAY77406294,,66372.15,-66372.15,16,Genuine Exception; still open at June month-end,Escalate to payments/settlement operations; item remained open beyond the normal lag window.
+MAY,MAY,Unsettled transaction,BL-0017,PRMAY59755172,,39469.88,-39469.88,2,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0018,PRMAY28784915,,17688.53,-17688.53,1,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0019,PRMAY16292676,,89465.31,-89465.31,2,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0020,PRMAY75581613,,43913.55,-43913.55,1,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0021,PRMAY12244945,,68677.76,-68677.76,21,Genuine Exception; still open at June month-end,Escalate to payments/settlement operations; item remained open beyond the normal lag window.
+MAY,MAY,Unsettled transaction,BL-0022,PRMAY12111482,,50677.13,-50677.13,29,Genuine Exception; still open at June month-end,Escalate to payments/settlement operations; item remained open beyond the normal lag window.
+MAY,MAY,Unsettled transaction,BL-0023,PRMAY14539747,,89806.57,-89806.57,4,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0024,PRMAY52779814,,38932.56,-38932.56,1,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0025,PRMAY93185576,,24166.62,-24166.62,21,Genuine Exception; still open at June month-end,Escalate to payments/settlement operations; item remained open beyond the normal lag window.
+MAY,MAY,Unsettled transaction,BL-0026,PRMAY29374563,,86921.73,-86921.73,1,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0027,PRMAY85007641,,45672.6,-45672.6,3,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0028,PRMAY42560305,,37830.89,-37830.89,3,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0029,PRMAY65350347,,80081.11,-80081.11,3,Likely Settlement Lag; cleared in June,Track to settlement. Reclassify to cleared when the June PREV CYCLE credit is posted.
+MAY,MAY,Unsettled transaction,BL-0030,PRMAY63270536,,35596.64,-35596.64,28,Genuine Exception; still open at June month-end,Escalate to payments/settlement operations; item remained open beyond the normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0001,PRJUN24289484,,47925.28,-47925.28,3,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0002,PRJUN24319594,,87437.83,-87437.83,3,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0003,PRJUN36798789,,69931.9,-69931.9,2,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0004,PRJUN63611082,,63700.48,-63700.48,1,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0005,PRJUN64218119,,24989.94,-24989.94,3,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0006,PRJUN87002404,,17568.83,-17568.83,1,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0007,PRJUN56612335,,81772.91,-81772.91,22,Genuine Exception,Escalate to settlement operations; older than 7 days at month-end.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0008,PRJUN43320572,,9062.64,-9062.64,1,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0009,PRJUN59821155,,30135.75,-30135.75,19,Genuine Exception,Escalate to settlement operations; older than 7 days at month-end.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0010,PRJUN36885204,,70073.69,-70073.69,3,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0011,PRJUN78892172,,83261.71,-83261.71,1,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0012,PRJUN47112255,,57702.93,-57702.93,2,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0013,PRJUN39808788,,54889.03,-54889.03,16,Genuine Exception,Escalate to settlement operations; older than 7 days at month-end.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0014,PRJUN10889014,,81459.21,-81459.21,16,Genuine Exception,Escalate to settlement operations; older than 7 days at month-end.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0015,PRJUN40763714,,79360.61,-79360.61,2,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0016,PRJUN61361533,,64387.5,-64387.5,2,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0017,PRJUN65354876,,49188.77,-49188.77,1,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0018,PRJUN60610858,,73204.39,-73204.39,0,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0019,PRJUN34544645,,87041.65,-87041.65,16,Genuine Exception,Escalate to settlement operations; older than 7 days at month-end.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0020,PRJUN83765077,,69051.64,-69051.64,1,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0021,PRJUN71836850,,45916.67,-45916.67,3,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0022,PRJUN66797703,,89282.26,-89282.26,21,Genuine Exception,Escalate to settlement operations; older than 7 days at month-end.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0023,PRJUN42112480,,92692.45,-92692.45,3,Likely Settlement Lag,Allow settlement if within normal lag window.
+JUNE,JUNE,Unsettled transaction,JUN-OPEN-0024,PRJUN84430642,,45403.63,-45403.63,2,Likely Settlement Lag,Allow settlement if within normal lag window.

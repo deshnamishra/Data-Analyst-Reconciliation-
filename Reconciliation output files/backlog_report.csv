@@ -1,0 +1,31 @@
+item_type,match_group_id,internal_reference,internal_amount,may_opening_status,june_status,june_bank_reference,june_bank_line_id,clearance_date,ageing_at_clearance_days,lag_vs_exception,comments
+May opening backlog,BL-0001,PRMAY30456313,31504.74,OPEN,CLEARED IN JUNE,UTR9344950649,BLJUN00269,2026-06-01,4,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0002,PRMAY84797762,37052.7,OPEN,CLEARED IN JUNE,UTR6719736115,BLJUN00257,2026-06-03,6,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0003,PRMAY24363501,49935.52,OPEN,STILL OPEN AT JUNE MONTH-END,,,,,Genuine Exception,No June PREV CYCLE settlement found; ageing 28 days at May month-end and older than normal lag.
+May opening backlog,BL-0004,PRMAY45106207,48839.37,OPEN,CLEARED IN JUNE,UTR4427620889,BLJUN00265,2026-06-03,5,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0005,PRMAY53166435,36317.7,OPEN,CLEARED IN JUNE,UTR2632399901,BLJUN00264,2026-06-04,6,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0006,PRMAY42981324,52423.38,OPEN,CLEARED IN JUNE,UTR2158638062,BLJUN00270,2026-06-04,5,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0007,PRMAY54327148,87630.92,OPEN,CLEARED IN JUNE,UTR9926778957,BLJUN00258,2026-06-02,6,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0008,PRMAY12058055,89045.89,OPEN,CLEARED IN JUNE,UTR7230065637,BLJUN00262,2026-06-03,6,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0009,PRMAY34679818,23081.74,OPEN,CLEARED IN JUNE,UTR3521300895,BLJUN00255,2026-06-02,3,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0010,PRMAY12176998,52676.27,OPEN,CLEARED IN JUNE,UTR1457632732,BLJUN00268,2026-06-03,5,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0011,PRMAY18113477,60674.78,OPEN,STILL OPEN AT JUNE MONTH-END,,,,,Genuine Exception,No June PREV CYCLE settlement found; ageing 20 days at May month-end and older than normal lag.
+May opening backlog,BL-0012,PRMAY81891784,5133.1,OPEN,CLEARED IN JUNE,UTR1230624431,BLJUN00259,2026-06-03,6,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0013,PRMAY90922827,83025.54,OPEN,CLEARED IN JUNE,UTR5621463184,BLJUN00260,2026-06-04,8,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0014,PRMAY30270856,20973.69,OPEN,STILL OPEN AT JUNE MONTH-END,,,,,Genuine Exception,No June PREV CYCLE settlement found; ageing 29 days at May month-end and older than normal lag.
+May opening backlog,BL-0015,PRMAY23234972,72414.34,OPEN,CLEARED IN JUNE,UTR5647317872,BLJUN00266,2026-06-01,2,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0016,PRMAY77406294,66372.15,OPEN,STILL OPEN AT JUNE MONTH-END,,,,,Genuine Exception,No June PREV CYCLE settlement found; ageing 16 days at May month-end and older than normal lag.
+May opening backlog,BL-0017,PRMAY59755172,39469.88,OPEN,CLEARED IN JUNE,UTR6968380957,BLJUN00267,2026-06-02,4,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0018,PRMAY28784915,17688.53,OPEN,CLEARED IN JUNE,UTR2752536389,BLJUN00272,2026-06-04,5,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0019,PRMAY16292676,89465.31,OPEN,CLEARED IN JUNE,UTR3826557688,BLJUN00253,2026-06-01,3,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0020,PRMAY75581613,43913.55,OPEN,CLEARED IN JUNE,UTR1374938761,BLJUN00271,2026-06-02,3,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0021,PRMAY12244945,68677.76,OPEN,STILL OPEN AT JUNE MONTH-END,,,,,Genuine Exception,No June PREV CYCLE settlement found; ageing 21 days at May month-end and older than normal lag.
+May opening backlog,BL-0022,PRMAY12111482,50677.13,OPEN,STILL OPEN AT JUNE MONTH-END,,,,,Genuine Exception,No June PREV CYCLE settlement found; ageing 29 days at May month-end and older than normal lag.
+May opening backlog,BL-0023,PRMAY14539747,89806.57,OPEN,CLEARED IN JUNE,UTR5679877282,BLJUN00273,2026-06-01,5,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0024,PRMAY52779814,38932.56,OPEN,CLEARED IN JUNE,UTR2350701477,BLJUN00254,2026-06-02,3,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0025,PRMAY93185576,24166.62,OPEN,STILL OPEN AT JUNE MONTH-END,,,,,Genuine Exception,No June PREV CYCLE settlement found; ageing 21 days at May month-end and older than normal lag.
+May opening backlog,BL-0026,PRMAY29374563,86921.73,OPEN,CLEARED IN JUNE,UTR4989487508,BLJUN00256,2026-06-04,5,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0027,PRMAY85007641,45672.6,OPEN,CLEARED IN JUNE,UTR2401777036,BLJUN00261,2026-06-04,7,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0028,PRMAY42560305,37830.89,OPEN,CLEARED IN JUNE,UTR9337145038,BLJUN00263,2026-06-02,5,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0029,PRMAY65350347,80081.11,OPEN,CLEARED IN JUNE,UTR8664105957,BLJUN00274,2026-06-01,4,Likely Settlement Lag,Cleared by PREV CYCLE credit in June.
+May opening backlog,BL-0030,PRMAY63270536,35596.64,OPEN,STILL OPEN AT JUNE MONTH-END,,,,,Genuine Exception,No June PREV CYCLE settlement found; ageing 28 days at May month-end and older than normal lag.
